@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import { Pokemon } from './pokemon/Pokemon';
+import { POKEMONS } from './pokemon/mock-pokemons';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './pokemon/pokemon.component.html',
+  styleUrls: ['./pokemon/pokemon.component.css']
 })
+
 export class AppComponent {
-  title = 'ngviacli';
+
+
 }
